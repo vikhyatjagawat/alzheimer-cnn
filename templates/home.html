@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Fylo landing page with dark theme and features grid. Challenge by Frontend Mentor. Coded by FarouqDev.">
+
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.png"> -->
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/style.css">
+
+  <title>Prediction</title>
+
+
+</head>
+
+<body>
+  <header id="head" class="header">
+    <div class="page">
+      <div class="intro">
+        <div class="intro__illus">
+          <img src="../static/old.png" alt="old">
+        </div>
+        <div class="intro__text">
+          <h1 class="intro__text--heading u-bold-txt">
+            DIAGNOSIS OF ALZHEIMER’S DISEASE USING CNN ON MRI DATA</h1>
+          <div>
+          <a href="result.html" class="intro__text--link btn">Test Out Our Application</a>
+          <a href="#main" class="intro__text--link btn">About Our Application</a>
+        </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div id="main" class="page">
+      <div class="section__contact">
+        <div class="section__contact--text">
+          <h4 class="section__contact--text-header u-bold-txt">
+            <p class="section__contact--text-body">
+              Alzheimer’s disease is a delusional brain syndrome that causes hindrance in the functional ability of a person. This is progressively marked by shrinking of the brain and continuous loss of brain cells.  Consequently it leads to death and thus it becomes important to come up with a system that can catch this disease early on. MRI (Magnetic Resonance Imaging) has evolved into a valuable medical diagnostic tool for the diagnosis of brain and other medical imaging over time. In the past a lot of data has been collected by different researchers and a variety of machine learning algorithms have been used to diagnose this disorder and label it into different classes. Through this project we are presenting a CNN based model trained on MRI images to diagnose this disease effectively. The use of CNN is a no-brainer as apart from being an excellent classifier , it is a very good feature extractor which reduces the overall cost of feature engineering. The proposed model  takes an MRI image as input and classifies it into very mild, mild, moderate or no disease categories. The trained model achieves an accuracy of 95%.
+            </p>
+        </div>
+      </div>
+
+
+      <div class="section__productive">
+        <div class="section__productive--img">
+          <img src="../static/brain.gif" alt="brain"
+            class="section__productive--img-illus">
+        </div>
+        <div class="section__productive--text">
+          <h3 class="section__productive--text-heading u-bold-txt">
+          <span><img width="15%" src="../static/algorithm.png"/></span>  Algorithm 
+          </h3>
+          <p class="section__productive--text-details">
+            A (ConvNet) Convolutional Neural Network architecture is a Deep Learning algorithms, which has proven better results in problems involving computer vision. It takes images as inputs which are then converted into numpy arrays or tensors with a specific dimensions and color channels. A CNN architecture consists of many number of different layers, namely, convolutional layers, activation layers, pooling layers, fully connected layers, etc. The architecture of a cnn model depends on the image size and the complexity of the image which could determine that how many layers and filters are required to train the model with highest accuracy and minimal time. All the layers perform different functions on the input data to extract features that could lead to a particular classification. 
+          </p>
+                    <div>
+            <a href="https://github.com/vikhyatjagawat/alzheimers-cnn"  target="_blank" class="section__productive--text-link">
+              See how algo works <span class="section__productive--text-arrow-icon"><img src="../static/icon-arrow.svg"
+                  alt="arrow icon"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <br>
+  <br>
+
+  </main>
+
+  <footer>
+    <div class="page">
+      <div class="footer">
+        <div class="attribution">
+          <p class="attribution-text">
+            Coded by <a href="#">Batch D - 3 &copy; 2022.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+</body>
+
+</html>
